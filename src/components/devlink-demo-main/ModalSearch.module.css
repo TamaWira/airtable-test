@@ -1,0 +1,52 @@
+.modal-search {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 600;
+
+  max-height: 100vh;
+  padding: 120px 13px 13px;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-search {
+    padding-top: 13px;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 5;
+
+  width: 100svw;
+  height: 100svh;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsla(0, 0.00%, 0.00%, 0.00);
+
+  backdrop-filter: blur(3px);
+}
+
+.slot-search {
+  position: relative;
+  z-index: 11000;
+
+  display: flex;
+  width: 100%;
+  max-width: 580px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}

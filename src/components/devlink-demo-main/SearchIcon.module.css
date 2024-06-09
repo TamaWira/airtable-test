@@ -1,0 +1,12 @@
+.search-icon-wrapper {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.search-icon {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+  align-items: center;
+}

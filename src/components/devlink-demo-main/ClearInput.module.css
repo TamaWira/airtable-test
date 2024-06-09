@@ -1,0 +1,21 @@
+.clear {
+  display: flex;
+  width: 20px;
+  height: 100%;
+  margin-right: 5px;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+
+  color: hsla(228.00000000000003, 0.00%, 8.22%, 0.45);
+}
+
+.svg-property-map-controls {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}

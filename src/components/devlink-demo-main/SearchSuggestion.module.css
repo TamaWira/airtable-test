@@ -1,0 +1,6 @@
+.searchsuggestioncontainer {
+  z-index: 9999;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+}
